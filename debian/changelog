@@ -3,9 +3,6 @@ tlp (1.6.0~beta.1-1) unstable; urgency=medium
   * New upstream version 1.6.0-beta.1
 
   [ Thomas Koch ]
-  * tlp-rdw: relocate NetworkManager hook
-    - Install to /usr/lib/NetworkManager/dispatcher.d/99tlp-rdw-nm
-    - rm_conffile /etc/NetworkManager/dispatcher.d/99tlp-rdw-nm
   * Add ZSH completion
   * Add deprecated.conf
   * Remove Suggests: acpi-call-dkms
@@ -16,7 +13,7 @@ tlp (1.6.0~beta.1-1) unstable; urgency=medium
   [ Raphaël Halimi ]
   * Revert UsrMerge changes for Bookworm (Closes: #1034233)
 
- -- Thomas Koch <linrunner@gmx.net>  Wed, 19 Jul 2023 21:12:42 +0200
+ -- Thomas Koch <linrunner@gmx.net>  Tue, 25 Jul 2023 02:40:51 +0200
 
 tlp (1.5.0-1) unstable; urgency=medium
 
