@@ -4,6 +4,7 @@
 #export DH_VERBOSE = 1
 
 # Override Makefile defaults
+export TLP_NMDSP=/etc/NetworkManager/dispatcher.d
 export TLP_ZSHCPL=/usr/share/zsh/vendor-completions
 
 # Debian and Ubuntu provide x86_energy_perf_policy in different packages
