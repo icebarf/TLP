@@ -9,6 +9,7 @@ tlp (1.6.0~beta.1-1) unstable; urgency=medium
   * Bump Standards-Version to 4.6.2
   * Update lintian overrides
   * Remove debian/source/options
+  * Revert debhelper compatibility level to 12
 
   [ Raphaël Halimi ]
   * Revert UsrMerge changes for Bookworm (Closes: #1034233)
