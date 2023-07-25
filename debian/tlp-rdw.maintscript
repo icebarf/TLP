@@ -1,2 +1,1 @@
 dir_to_symlink /usr/share/doc/tlp-rdw tlp
-rm_conffile /etc/NetworkManager/dispatcher.d/99tlp-rdw-nm
