@@ -1,6 +1,6 @@
-tlp (1.6.0~beta.1-1) unstable; urgency=medium
+tlp (1.6.0-1) unstable; urgency=medium
 
-  * New upstream version 1.6.0-beta.1
+  * New upstream version 1.6.0
 
   [ Thomas Koch ]
   * Add ZSH completion
@@ -9,12 +9,11 @@ tlp (1.6.0~beta.1-1) unstable; urgency=medium
   * Bump Standards-Version to 4.6.2
   * Update lintian overrides
   * Remove debian/source/options
-  * Revert debhelper compatibility level to 12
 
   [ Raphaël Halimi ]
   * Revert UsrMerge changes for Bookworm (Closes: #1034233)
 
- -- Thomas Koch <linrunner@gmx.net>  Tue, 25 Jul 2023 02:40:51 +0200
+ -- Thomas Koch <linrunner@gmx.net>  Thu, 24 Aug 2023 05:42:42 +0200
 
 tlp (1.5.0-1) unstable; urgency=medium
 
